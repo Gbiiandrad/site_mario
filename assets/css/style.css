@@ -49,7 +49,7 @@ video{
 }
 
 p{
-    color: white;
+    color: #fff;
     margin-top: 10px;
     font-size: 24px;
     
@@ -64,4 +64,30 @@ button {
     color: #fff;
     margin-top: 20px;
     cursor: pointer;
+}
+
+.formulario {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /*margin do lado de dentro*/
+    border-radius: 10px;
+    gap: 20px; /*distancia automatia entre tds os itens dentro do formulario*/
+}
+
+input {
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid gray; /*groçura, jeito da borda, cor*/
+    padding-left: 10px; /*para texto*/
+    outline-color: chartreuse;
+}
+
+textarea {
+    height: 90px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid gray; /*groçura, jeito da borda, cor*/
+    padding: 10px; /*para texto*/
+    outline-color: chartreuse;
 }
