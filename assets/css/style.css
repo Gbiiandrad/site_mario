@@ -22,3 +22,27 @@ body{
 .main-box{
     width: 40%;
 }
+
+/*essa classe é sobre a div, para mexer em td sobre o video vamos para o video*/
+.video-mario-e-luigi{
+    position: fixed;
+    top: 0;
+    z-index: -1; /*ir para tras do conteudo. -1 fundo, 1 na frente*/
+    width: 100%;
+    height: 100%;
+}
+
+video{
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.video-mask {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
