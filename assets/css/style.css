@@ -35,8 +35,8 @@ body{
 video{
     position: fixed;
     top: 0;
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%; /*min (minimo) mas ele estica mais do que 100%*/
 }
 
 .video-mask {
@@ -45,4 +45,11 @@ video{
     position: fixed;
     top: 0;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+
+}
+
+p{
+    color: white;
+    margin-top: 10px;
+    font-size: 24px;
 }
