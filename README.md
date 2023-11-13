@@ -24,4 +24,9 @@
 
 * Flex-box
 
+## ⚠ Para o formulário ser enviado você DEVE alterar o email de destino
+```sh
+<form action="https://formsubmit.co/your@email.com" method="POST" />
+```
+
 
