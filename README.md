@@ -3,7 +3,7 @@
 <h1 align="center"> Projeto </h1>
 
 <h4 align="center">
-    :point_right:(https://portfolio-alura-sandy.vercel.app)
+    :point_right:(https://site-mario-ten.vercel.app)
 </h4>
 
 <img align="center" src="https://github.com/Gbiiandrad/My-Repository-/blob/main/Imagens/Sem%20título.png">
