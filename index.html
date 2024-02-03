@@ -45,14 +45,24 @@
 
 
     function cliqueiNoBotao(){
-        formulario.style.left = "700px"
-        mascara.style.visibility = "visible"
+        
+        if (window.innerWidth > 1100) {
+            formulario.style.left = "700px"
+            mascara.style.visibility = "visible"
+        } else {
+            formulario.style.left = "10%";
+                                
+        }
+
+        
     }
 
     function sumirFormulario(){
         formulario.style.left = "-320px"
         mascara.style.visibility = "hidden"
     }
+
+
 
 </script>
 

@@ -110,6 +110,7 @@ textarea {
         justify-content: flex-start;
         flex-direction: column;
         padding: 10px;
+        margin-top: 20px;
         
     }
 
@@ -130,21 +131,8 @@ textarea {
         display: none;
     }
 
-    .fale-conosco {
-        background: #fff;
-        display: flex;
-        flex-direction: column;
-        padding: 20px;
-        border-radius: 10px;
-        gap: 20px;
-        position: fixed;
-        left: -320px;
-        transition: left 1s linear;
-    }
-
-    .fale-conosco {
-        padding: 20px;
-        left: -320px;
+    button {
+      margin-bottom: 20px;
     }
 
 }
